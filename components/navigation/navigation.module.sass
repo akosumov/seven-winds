@@ -1,0 +1,40 @@
+@use '../../app/_variables' as *
+
+
+.aside
+	background-color: $background
+	position: relative
+	display: flex
+	flex-direction: column
+	width: 17rem
+	border-right: 1px solid $primary-background
+	.search
+		height: 3rem
+		display: flex
+		align-items: center
+		justify-content: space-between
+		border-bottom: 1px solid $primary-background
+		padding: 0.6rem 0.6rem 0.6rem 2rem
+		color: $primary-background
+		font-weight: 600
+		.items
+			display: flex
+			flex-direction: column
+			span:last-of-type
+				font-size: 13px
+		.chevron
+			color: $foreground
+			cursor: pointer
+	.box
+		padding: 0.6rem 0.6rem 0 2rem
+		display: flex
+		flex-direction: column
+		gap: 15px
+		.item
+			display: flex
+			align-items: center
+			gap: 10px
+			font-weight: 600
+			color: $foreground
+			cursor: pointer
+	

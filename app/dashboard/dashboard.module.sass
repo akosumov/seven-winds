@@ -1,0 +1,75 @@
+@use '../_variables' as *
+
+.bg
+	background-color: $background 
+	height: 100%
+	.page
+		display: flex
+		height: 100%
+		background-color: $primary-foreground 
+		.main
+			flex: 1
+			.title
+				height: 3rem
+				border-bottom: 1px solid $primary-background
+				display: flex
+				justify-content: start
+				span
+					padding: 0.6rem 1rem 0.6rem 1rem
+					border-right: 1px solid $primary-background
+					color: $foreground
+					font-size: 17px
+		.content
+			padding: 2rem 1rem 0.6rem 1rem
+		table
+			width: 100%
+			border-collapse: collapse
+			font-size: 15px
+			thead
+				border-bottom: 1px solid $primary-background
+				padding: 10px
+				color: $text-foreground
+				text-align: left
+				tr
+					th
+						padding-bottom: 20px
+			tbody
+				color: $foreground
+				tr
+					td
+						padding: 1rem 0 2rem 0 
+						border-bottom: 1px solid $primary-background
+						.icons
+							display: flex
+							align-items: center
+							gap: 10px
+							width: fit-content
+							padding: 5px
+							.trash
+								transition: opacity 0.2s ease-out
+								opacity: 0
+							&:hover
+								background-color: $background
+								border-radius: 5px
+								padding: 5px
+								.trash
+									opacity: 100
+						input
+							background-color: $primary-foreground
+							color: $foreground
+							border: 1px solid $primary-background
+							height: 2rem
+							border-radius: 5px
+							outline: none
+							padding: 5px
+							font-size: 15px
+							font-weight: 600
+						
+
+
+						
+
+
+
+
+

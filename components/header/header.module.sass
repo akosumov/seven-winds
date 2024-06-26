@@ -1,0 +1,20 @@
+@use '../../app/_variables' as *
+
+
+.header
+	padding: 0.6rem 0 0.6rem 2rem
+	border-bottom: 1px solid $primary-background
+	display: flex
+	align-items: center
+	gap: 2rem
+	color: $text-foreground
+	font-weight: 500
+	.active
+		color: $foreground
+		border-bottom: 2px solid $foreground
+		padding-bottom: 5px
+		transform: translateY(2.5px)
+		cursor: pointer
+	.elem
+		cursor: pointer
+		
