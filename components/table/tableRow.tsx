@@ -1,5 +1,5 @@
 import { FileText, Trash2 } from 'lucide-react'
-import styles from '../../app/dashboard/dashboard.module.sass'
+import styles from '../../app/dashboard.module.sass'
 import { useEffect, useState } from 'react'
 
 interface TableRowProps {
