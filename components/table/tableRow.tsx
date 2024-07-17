@@ -1,9 +1,9 @@
 import { FileText, Trash2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { useAddRow } from '@/utils/hooks/useAddRow';
-import { useAddRowFetch } from '@/utils/hooks/useAddRowFetch';
-import { useUpdateRow } from '@/utils/hooks/useUpdateRow';
-import { useDeleteRow } from '@/utils/hooks/useDeleteRow';
+import useAddRow from '@/utils/hooks/useAddRow';
+import useAddRowFetch from '@/utils/hooks/useAddRowFetch';
+import useUpdateRow from '@/utils/hooks/useUpdateRow';
+import useDeleteRow from '@/utils/hooks/useDeleteRow';
 import { TreeResponse } from '@/app/dashboard.types';
 import styles from '../../app/dashboard.module.sass';
 
