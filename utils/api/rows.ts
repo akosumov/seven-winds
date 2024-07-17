@@ -9,6 +9,7 @@ export const getRows = async () => {
 		throw new Error('Failed to get rows')
 	}
 }
+
 export const createRow = async (row: OutlayRowRequest) => {
 	try {
 		const res = await api.post('/create', row)
