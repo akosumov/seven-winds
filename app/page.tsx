@@ -5,7 +5,7 @@ import Navigation from '@/components/navigation/navigation';
 import TableRow from '@/components/table/tableRow';
 import { useEffect, useState } from 'react';
 import { getRows } from '@/utils/api/rows';
-import { newRowTemplate } from '@/utils/constants/newRowTemplate';
+import newRowTemplate from '@/utils/constants/newRowTemplate';
 import styles from './dashboard.module.sass';
 import { TreeResponse } from './dashboard.types';
 
